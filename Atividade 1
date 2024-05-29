@@ -1,0 +1,26 @@
+package avaliacaolpa;
+
+import java.util.Scanner;
+
+public class avaliacao1 { //nome da classe
+
+	public static void main(String[] args) {// Permite que o código seja executado de mais de uma forma
+		Scanner ler = new Scanner(System.in);// lê o código e armazenar as leituras
+		int a, b, soma, sub, mult, div; // Informar os valores e e armazenar as variáveis no caso, de numero inteiro
+		System.out.println("Digite um valor :");// Cria uma nova linha com o valor ou escrita 
+		a = ler.nextInt();// mostra para o usuario o valor de determinada variavel
+		System.out.println("Digite outro valor :");// Cria uma nova linha com o valor ou escrita 
+		b = ler.nextInt();// mostra para o usuario o valor de determinada variavel
+		soma = a+b;//operacao da variavel
+		sub = a-b;//operacao da variavel
+		mult = a*b;//operacao da variavel
+		div = a/b;//operacao da variavel
+		System.out.println("A soma é: "+ soma);// Cria uma nova linha com o valor ou escrita da variavel realizando a operação
+		System.out.println("A subtração é: "+ sub);// Cria uma nova linha com o valor ou escrita da variavel realizando a operação
+		System.out.println("A multiplicação é: "+ mult);// Cria uma nova linha com o valor ou escrita da variavel realizando a operação
+		System.out.println("A divisão é: "+ div);// Cria uma nova linha com o valor ou escrita da variavel realizando a operação
+		ler.close();//fechamento do codigo
+
+	}
+
+}
