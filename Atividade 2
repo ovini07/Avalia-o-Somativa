@@ -1,0 +1,21 @@
+package avaliacaolpa;
+
+import java.util.Scanner;
+
+public class avaliacao2 {//nome da classe
+
+	public static void main(String[] args) {// Permite que o código seja executado de mais de uma forma
+		Scanner ler = new Scanner(System.in);// lê o código e armazenar as leituras
+		double A, b, h;// Informar os valores e armazenar as variáveis que podem ser numeros reais com casas decimais
+		System.out.println("Vamos calcular a área de um objeto! ");//
+		System.out.print("Informe o valor da base :");
+		b = ler.nextDouble();
+		System.out.print("Informe o valor da altura :");
+		h = ler.nextDouble();
+		A = b*h/2;
+		System.out.println("A área do triângulo é:"+A);
+		ler.close();
+		
+	}
+
+}
