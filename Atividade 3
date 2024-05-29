@@ -1,0 +1,39 @@
+package avaliacaolpa;
+
+import java.util.Scanner;
+
+public class avaliacao3 {//nome da classe
+
+	public static void main(String[] args) {// Permite que o código seja executado de mais de uma forma
+		Scanner ler = new Scanner(System.in);// lê o código e armazenar as leituras
+		int num;
+		System.out.print("Informe o dia da semana: ");
+		num= ler.nextInt();
+		switch (num) {//estrutura de controle de fluxo
+		case 1://caso o numero seja correspondente a escrita
+		System.out.println("Domingo");//aparece o valor correspondente
+		break;// se estiver correto, encerra o codigo
+		case 2:
+		System.out.println("Segunta-Feira");
+		break;
+		case 3:
+		System.out.println("Terça-Feira");
+		break;
+		case 4:
+		System.out.println("Quarta-Feira");
+     	break;
+		case 5:
+			System.out.println("Quinta-Feira");
+			break;
+		case 6:
+			System.out.println("Sexta-Feira");
+			break;
+		case 7:
+			System.out.println("Sábado");
+			break;
+		default://caso nenhuma das opçoes sejam satisfeitas essa mensagem aparecera
+			System.out.println("O dia escolhido é inválido!");
+
+		}
+		}
+		}
