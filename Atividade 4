@@ -1,0 +1,22 @@
+package avaliacaolpa;
+
+import java.util.Scanner;
+
+public class avaliacao4 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		double num, soma = 0;// Informar os valores e armazenar as variáveis que podem ser numeros reais com casas decimais
+		double numero;
+		int i = 1; 
+        while (i <= 15) {
+            System.out.print("Informe o " + i + "° número : ");
+            numero = ler.nextDouble();
+            soma = soma + numero;
+            i++; 
+            System.out.println("Soma de todos os números: " + soma);
+        }
+
+	}
+
+}
